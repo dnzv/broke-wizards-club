@@ -4,10 +4,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="text-center">
+      <header className="m-6 p-6 rounded shadow-xl">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className="text-base">
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
