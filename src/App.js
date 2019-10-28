@@ -4,11 +4,13 @@ import Spell from "./components/Spell";
 
 function App() {
     const name = 'Absorb Elements';
-    const description = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolores, ex hic laboriosam modi nostrum
-            officia provident quis rem similique. Autem dicta ea enim facilis ipsam quasi sapiente tempore ullam. Lorem
-            ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur enim et incidunt itaque labore
-            magnam nulla! Aliquid distinctio dolores eaque eveniet fugit molestiae nesciunt, numquam officiis provident
-            rerum sed.`;
+    const description = `The spell captures some of the incoming energy, 
+    lessening its effect on you and storing it for your next melee attack. 
+    You have resistance to the triggering damage type until the start of your next turn. 
+    Also, the first time you hit with a melee attack on your next turn, 
+    the target takes an extra 1d6 damage of the triggering type, and the spell ends.`;
+    const higherLevel = `When you cast this spell using a spell slot of 2nd level or higher, 
+    the extra damage increases by 1d6 for each slot level above 1st.`;
     const footnote = '* - which you take when you take acid, cold, fire, lightning, or thunder damage';
     const statBlock = {
         level: 1,
@@ -38,10 +40,13 @@ function App() {
     ];
     const classes = [ 'Druid', 'Ranger', 'Sorcerer', 'Wizard' ];
     const tags = [ 'Damage', 'Warding' ];
+    const reference = 'Elemental Evil Player\'s Companion, pg. 150';
     return (
         <div>
-            <Spell name={ name } description={ description } footnote={ footnote }
-                   stats={ stats } classes={ classes } tags={ tags }/>
+            <Spell name={ name } description={ description }
+                   higherLevel={ higherLevel } footnote={ footnote }
+                   stats={ stats } classes={ classes }
+                   tags={ tags } reference={ reference }/>
         </div>
     );
 }
