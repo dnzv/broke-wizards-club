@@ -1,7 +1,7 @@
 import React from 'react'
 import Tag from "./Tag";
 
-const Spell = props => (
+const SpellCard = props => (
   <div className="m-6 px-6 pt-4 pb-2 shadow border-solid border-t-4 border-purple-600 text-gray-900">
     <p className="text-2xl font-bold mb-6 capitalize">{props.name}</p>
     <StatTable stats={props.stats}/>
@@ -39,4 +39,4 @@ const StatTable = ({ stats }) => (
   </div>
 );
 
-export default Spell
+export default SpellCard

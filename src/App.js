@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Spell from "./components/Spell";
+import SpellCard from "./components/SpellCard";
+import SpellListItem from "./components/SpellListItem";
 
 const School = {
   Abjuration: 'Abjuration',
@@ -74,10 +75,12 @@ function App() {
   const reference = 'Elemental Evil Player\'s Companion, pg. 150';
   return (
     <div>
-      <Spell name={name} description={description}
-             higherLevel={higherLevel} footnote={footnote}
-             stats={stats} classes={classes}
-             tags={tags} reference={reference}/>
+      <SpellListItem/>
+      <br/>
+      <SpellCard name={name} description={description}
+                 higherLevel={higherLevel} footnote={footnote}
+                 stats={stats} classes={classes}
+                 tags={tags} reference={reference}/>
     </div>
   );
 }
