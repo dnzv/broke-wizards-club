@@ -68,7 +68,7 @@ function App() {
     { label: 'duration', value: '1 round' },
     { label: 'school', value: 'abjuration' },
     { label: 'attack/save', value: 'none' },
-    { label: 'damage/effect', value: 'acid' },
+    { label: 'damage/effect', value: 'acid (...)' },
   ];
   const classes = [ 'Druid', 'Ranger', 'Sorcerer', 'Wizard' ];
   const tags = [ 'Damage', 'Warding' ];
