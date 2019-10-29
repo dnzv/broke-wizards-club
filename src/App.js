@@ -77,6 +77,7 @@ function App() {
     <div className="p-8">
       <table style={{ borderSpacing: '0 15px' }}
              className="w-full table-auto border-separate text-gray-900 text-sm text-left font-medium">
+        <tbody>
         <SpellListItem name={name} level={statBlock.level}
                        school={statBlock.school} component={'S'}
                        time={'1 Reaction *'} duration={'1 Round'}
@@ -87,6 +88,7 @@ function App() {
                        time={'1 Reaction *'} duration={'1 Round'}
                        range={'Self'} area={null} attack={'Ranged'}
                        save={null} damage={'Acid (...)'} effect={null}/>
+        </tbody>
       </table>
       <br/>
       <SpellCard name={name} description={description}
