@@ -1,5 +1,5 @@
-import React from 'react';
-import Abjuration from '../images/abjuration.png';
+import React from 'react'
+import Abjuration from '../images/abjuration.png'
 
 const SpellListItem = props => (
   <div style={{ height: 70 }}
@@ -17,6 +17,6 @@ const SpellListItem = props => (
     <div className="">None</div>
     <div className="">Acid (...)</div>
   </div>
-);
+)
 
-export default SpellListItem;
+export default SpellListItem
