@@ -74,9 +74,22 @@ function App() {
   const tags = [ 'Damage', 'Warding' ]
   const reference = 'Elemental Evil Player\'s Companion, pg. 150'
   return (
-    <div className="p-8">
+    <div className="p-8 text-gray-900">
       <table style={{ borderSpacing: '0 15px' }}
-             className="w-full table-auto border-separate text-gray-900 text-sm text-left font-medium">
+             className="w-full table-auto border-separate text-sm text-left font-medium">
+        <thead>
+        <tr className="text-sm font-bold uppercase">
+          <td className="px-4"/>
+          <td className="px-4">level</td>
+          <td className="px-4">name</td>
+          <td className="px-4">casting time</td>
+          <td className="px-4">duration</td>
+          <td className="px-4">range/area</td>
+          <td className="px-4">attack/save</td>
+          <td className="px-4">damage/effect</td>
+          <td className="px-4"/>
+        </tr>
+        </thead>
         <tbody>
         <SpellListItem name={name} level={statBlock.level}
                        school={statBlock.school} component={'S'}
