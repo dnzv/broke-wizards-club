@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
-import SpellCard from "./components/SpellCard";
-import SpellListItem from "./components/SpellListItem";
+import React from 'react'
+import './App.css'
+import SpellCard from "./components/SpellCard"
+import SpellListItem from "./components/SpellListItem"
 
 const School = {
   Abjuration: 'Abjuration',
@@ -12,7 +12,7 @@ const School = {
   Illusion: 'Illusion',
   Necromancy: 'Necromancy',
   Transmutation: 'Transmutation',
-};
+}
 
 const Unit = {
   Action: 'Action',
@@ -21,20 +21,20 @@ const Unit = {
   Round: 'Round',
   Hour: 'Hour',
   Minute: 'Minute'
-};
+}
 
 function App() {
-  const name = 'Absorb Elements';
+  const name = 'Absorb Elements'
   const description = `The spell captures some of the incoming energy, 
     lessening its effect on you and storing it for your next melee attack. 
     You have resistance to the triggering damage type until the start of your next turn. 
     Also, the first time you hit with a melee attack on your next turn, 
-    the target takes an extra 1d6 damage of the triggering type, and the spell ends.`;
+    the target takes an extra 1d6 damage of the triggering type, and the spell ends.`
   const higherLevel = `When you cast this spell using a spell slot of 2nd level or higher, 
-    the extra damage increases by 1d6 for each slot level above 1st.`;
-  const footnote = '* - which you take when you take acid, cold, fire, lightning, or thunder damage';
+    the extra damage increases by 1d6 for each slot level above 1st.`
+  const footnote = '* - which you take when you take acid, cold, fire, lightning, or thunder damage'
   const statBlock = {
-    level: 1,
+    level: '1st',
     concentration: false,
     castingTime: {
       value: 1,
@@ -58,8 +58,8 @@ function App() {
       value: null
     },
     effect: null
-  };
-  console.log('stat block', statBlock);
+  }
+  console.log('stat block', statBlock)
   const stats = [
     { label: 'level', value: '1st' },
     { label: 'casting time', value: '1 reaction *' },
@@ -69,20 +69,32 @@ function App() {
     { label: 'school', value: 'abjuration' },
     { label: 'attack/save', value: 'none' },
     { label: 'damage/effect', value: 'acid (...)' },
-  ];
-  const classes = [ 'Druid', 'Ranger', 'Sorcerer', 'Wizard' ];
-  const tags = [ 'Damage', 'Warding' ];
-  const reference = 'Elemental Evil Player\'s Companion, pg. 150';
+  ]
+  const classes = [ 'Druid', 'Ranger', 'Sorcerer', 'Wizard' ]
+  const tags = [ 'Damage', 'Warding' ]
+  const reference = 'Elemental Evil Player\'s Companion, pg. 150'
   return (
-    <div>
-      <SpellListItem/>
+    <div className="p-8">
+      <table style={{ borderSpacing: '0 15px' }}
+             className="w-full table-auto border-separate text-gray-900 text-sm text-left font-medium">
+        <SpellListItem name={name} level={statBlock.level}
+                       school={statBlock.school} component={'S'}
+                       time={'1 Reaction *'} duration={'1 Round'}
+                       range={'Self'} area={null} attack={null}
+                       save={null} damage={'Acid (...)'} effect={null}/>
+        <SpellListItem name={name} level={statBlock.level}
+                       school={statBlock.school} component={'S'}
+                       time={'1 Reaction *'} duration={'1 Round'}
+                       range={'Self'} area={null} attack={'Ranged'}
+                       save={null} damage={'Acid (...)'} effect={null}/>
+      </table>
       <br/>
       <SpellCard name={name} description={description}
                  higherLevel={higherLevel} footnote={footnote}
                  stats={stats} classes={classes}
                  tags={tags} reference={reference}/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
