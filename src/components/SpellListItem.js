@@ -16,6 +16,7 @@ const SpellListItem = props => (
     <div className="">Self</div>
     <div className="">None</div>
     <div className="">Acid (...)</div>
+    <div className="inline-block text-3xl text-purple-700 cursor-pointer leading-none">+</div>
   </div>
 )
 
