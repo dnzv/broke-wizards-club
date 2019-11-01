@@ -20,7 +20,7 @@
   "damage": [
     {
       "amount": "",
-      "type": ""
+      "type": [""]
     }
   ],
   "effect": null,
