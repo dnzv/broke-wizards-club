@@ -1,0 +1,460 @@
+[
+  {
+    "id": 1,
+    "name": "Acid Splash",
+    "level": 0,
+    "castingTime": {
+      "amount": 1,
+      "unit": "ACTION",
+      "footnote": null
+    },
+    "duration": {
+      "amount": 0,
+      "unit": "INSTANTANEOUS",
+      "footnote": null
+    },
+    "ritual": false,
+    "concentration": false,
+    "description": "<p>You hurl a bubble of acid. Choose one or two creatures you can see within range. If you choose two, they must be within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.</p><p>This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>",
+    "higherLevel": null,
+    "attack": null,
+    "save": "DEX",
+    "damage": [
+      {
+        "amount": "1d6",
+        "type": "ACID"
+      }
+    ],
+    "effect": null,
+    "range": 60,
+    "area": null,
+    "school": "CONJURATION",
+    "classes": [
+      "SORCERER",
+      "WIZARD",
+      "ARTIFICER"
+    ],
+    "subClasses": [],
+    "verbal": true,
+    "somatic": true,
+    "material": null,
+    "source": {
+      "book": "BR",
+      "page": 211
+    },
+    "tags": [
+      "DAMAGE"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Blade Ward",
+    "level": 0,
+    "castingTime": {
+      "amount": 1,
+      "unit": "ACTION",
+      "footnote": null
+    },
+    "duration": {
+      "amount": 1,
+      "unit": "ROUND",
+      "footnote": null
+    },
+    "ritual": false,
+    "concentration": false,
+    "description": "<p>You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.</p>",
+    "higherLevel": null,
+    "attack": null,
+    "save": null,
+    "damage": [
+      {
+        "amount": null,
+        "type": "BLUDGEONING"
+      },
+      {
+        "amount": null,
+        "type": "PIERCING"
+      },
+      {
+        "amount": null,
+        "type": "SLASHING"
+      }
+    ],
+    "effect": "",
+    "range": 0,
+    "area": null,
+    "school": "ABJURATION",
+    "classes": [
+      "BARD",
+      "SORCERER",
+      "WARLOCK",
+      "WIZARD"
+    ],
+    "subClasses": [],
+    "verbal": true,
+    "somatic": true,
+    "material": null,
+    "source": {
+      "book": "PHB",
+      "page": 218
+    },
+    "tags": [
+      "COMBAT",
+      "WARDING"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Booming Blade",
+    "level": 0,
+    "castingTime": {
+      "amount": 1,
+      "unit": "ACTION",
+      "footnote": null
+    },
+    "duration": {
+      "amount": 1,
+      "unit": "ROUND",
+      "footnote": null
+    },
+    "ritual": false,
+    "concentration": false,
+    "description": "<p>As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell’s range, otherwise the spell fails. On a hit, the target suffers the attack’s normal effects, and it becomes sheathed in booming energy until the start of your next turn. If the target willingly moves before then, it immediately takes 1d8 thunder damage, and the spell ends.</p><p>This spell’s damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 thunder damage to the target, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.</p>",
+    "higherLevel": "",
+    "attack": "MELEE",
+    "save": null,
+    "damage": [
+      {
+        "amount": "1d8",
+        "type": "THUNDER"
+      }
+    ],
+    "effect": null,
+    "range": 5,
+    "area": null,
+    "school": "EVOCATION",
+    "classes": [
+      "SORCERER",
+      "WARLOCK",
+      "WIZARD"
+    ],
+    "subClasses": [],
+    "verbal": true,
+    "somatic": false,
+    "material": {
+      "component": "a weapon",
+      "cost": null,
+      "consumed": false
+    },
+    "source": {
+      "book": "SCAG",
+      "page": null
+    },
+    "tags": [
+      "DAMAGE",
+      "CONTROL",
+      "COMBAT"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Chill Touch",
+    "level": 0,
+    "castingTime": {
+      "amount": 1,
+      "unit": "ACTION",
+      "footnote": null
+    },
+    "duration": {
+      "amount": 1,
+      "unit": "ROUND",
+      "footnote": null
+    },
+    "ritual": false,
+    "concentration": false,
+    "description": "<p>You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.</p><p>If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.</p><p>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
+    "higherLevel": null,
+    "attack": "RANGED",
+    "save": null,
+    "damage": [
+      {
+        "amount": "1d8",
+        "type": "NECROTIC"
+      }
+    ],
+    "effect": null,
+    "range": 120,
+    "area": null,
+    "school": "NECROMANCY",
+    "classes": [
+      "SORCERER",
+      "WARLOCK",
+      "WIZARD"
+    ],
+    "subClasses": [],
+    "verbal": true,
+    "somatic": true,
+    "material": null,
+    "source": {
+      "book": "BR",
+      "page": 221
+    },
+    "tags": [
+      "DAMAGE"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Control Flames",
+    "level": 0,
+    "castingTime": {
+      "amount": 1,
+      "unit": "ACTION",
+      "footnote": null
+    },
+    "duration": {
+      "amount": 0,
+      "unit": "INSTANTANEOUS",
+      "footnote": null
+    },
+    "ritual": false,
+    "concentration": false,
+    "description": "<p>You choose nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways:</p><ul><li>You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.</li><li>You instantaneously extinguish the flames within the cube.</li><li>You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.</li><li>You cause simple shapes—such as the vague form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like. The shapes last for 1 hour.</li></ul><p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p>",
+    "higherLevel": null,
+    "attack": null,
+    "save": null,
+    "damage": null,
+    "effect": null,
+    "range": 60,
+    "area": {
+      "size": 5,
+      "shape": "CUBE"
+    },
+    "school": "TRANSMUTATION",
+    "classes": [
+      "DRUID",
+      "SORCERER",
+      "WIZARD"
+    ],
+    "subClasses": [],
+    "verbal": false,
+    "somatic": true,
+    "material": null,
+    "source": {
+      "book": "EEPC",
+      "page": 152
+    },
+    "tags": [
+      "CONTROL"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Create Bonfire",
+    "level": 0,
+    "castingTime": {
+      "amount": 1,
+      "unit": "ACTION",
+      "footnote": null
+    },
+    "duration": {
+      "amount": 1,
+      "unit": "MINUTE",
+      "footnote": null
+    },
+    "ritual": false,
+    "concentration": true,
+    "description": "<p>You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature in the bonfire’s space when you cast the spell must succeed on a Dexterity saving throw or take 1d8 fire damage. A creature must also make the saving throw when it moves into the bonfire’s space for the first time on a turn or ends its turn there.</p><p>The bonfire ignites flammable objects in its area that aren’t being worn or carried.</p><p>The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
+    "higherLevel": null,
+    "attack": null,
+    "save": "DEX",
+    "damage": [
+      {
+        "amount": "1d8",
+        "type": "FIRE"
+      }
+    ],
+    "effect": null,
+    "range": 60,
+    "area": {
+      "size": 5,
+      "shape": "CUBE"
+    },
+    "school": "CONJURATION",
+    "classes": ["DRUID", "SORCERER", "WARLOCK", "WIZARD", "ARTIFICER"],
+    "subClasses": [],
+    "verbal": true,
+    "somatic": true,
+    "material": null,
+    "source": {
+      "book": "EEPC",
+      "page": 152
+    },
+    "tags": ["DAMAGE", "CONTROL"]
+  },
+  {
+    "id": 7,
+    "name": "Dancing Lights",
+    "level": 0,
+    "castingTime": {
+      "amount": 1,
+      "unit": "ACTION",
+      "footnote": null
+    },
+    "duration": {
+      "amount": 1,
+      "unit": "MINUTE",
+      "footnote": null
+    },
+    "ritual": false,
+    "concentration": true,
+    "description": "<p>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.</p><p>As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.</p>",
+    "higherLevel": null,
+    "attack": null,
+    "save": null,
+    "damage": null,
+    "effect": null,
+    "range": 120,
+    "area": null,
+    "school": "EVOCATION",
+    "classes": ["BARD", "SORCERER", "WIZARD", "ARTIFICER"],
+    "subClasses": [],
+    "verbal": true,
+    "somatic": true,
+    "material": {
+      "component": "a bit of phosphorus or wychwood, or a glowworm",
+      "cost": null,
+      "consumed": false
+    },
+    "source": {
+      "book": "BR",
+      "page": 230
+    },
+    "tags": ["UTILITY"]
+  },
+  {
+    "id": 8,
+    "name": "Druidcraft",
+    "level": 0,
+    "castingTime": {
+      "amount": 1,
+      "unit": "ACTION",
+      "footnote": null
+    },
+    "duration": {
+      "amount": 0,
+      "unit": "INSTANTANEOUS",
+      "footnote": null
+    },
+    "ritual": false,
+    "concentration": false,
+    "description": "<p>Whispering to the spirits of nature, you create one of the following effects within range:</p><ul><li><p>You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.</p></li><li><p>You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.</p></li><li><p>You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect must fit in a 5-foot cube.</p></li><li><p>You instantly light or snuff out a candle, a torch, or a small campfire.</p></li></ul>",
+    "higherLevel": null,
+    "attack": null,
+    "save": null,
+    "damage": null,
+    "effect": null,
+    "range": 30,
+    "area": null,
+    "school": "TRANSMUTATION",
+    "classes": ["DRUID"],
+    "subClasses": [],
+    "verbal": true,
+    "somatic": true,
+    "material": null,
+    "source": {
+      "book": "BR",
+      "page": 236
+    },
+    "tags": ["CONTROL"]
+  },
+  {
+    "id": 9,
+    "name": "Eldritch Blast",
+    "level": 0,
+    "castingTime": {
+      "amount": 1,
+      "unit": "ACTION",
+      "footnote": null
+    },
+    "duration": {
+      "amount": 0,
+      "unit": "INSTANTANEOUS",
+      "footnote": null
+    },
+    "ritual": false,
+    "concentration": false,
+    "description": "<p>A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.</p><p>The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p>",
+    "higherLevel": null,
+    "attack": "RANGED",
+    "save": null,
+    "damage": [
+      {
+        "amount": "1d10",
+        "type": "FORCE"
+      }
+    ],
+    "effect": null,
+    "range": 120,
+    "area": null,
+    "school": "EVOCATION",
+    "classes": ["WARLOCK"],
+    "subClasses": [],
+    "verbal": true,
+    "somatic": true,
+    "material": null,
+    "source": {
+      "book": "BR",
+      "page": 237
+    },
+    "tags": ["DAMAGE"]
+  },
+  {
+    "id": 10,
+    "name": "Fire Bolt",
+    "level": 0,
+    "castingTime": {
+      "amount": 1,
+      "unit": "ACTION",
+      "footnote": null
+    },
+    "duration": {
+      "amount": 0,
+      "unit": "INSTANTANEOUS",
+      "footnote": null
+    },
+    "ritual": false,
+    "concentration": false,
+    "description": "<p>You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.</p><p>This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>",
+    "higherLevel": null,
+    "attack": "RANGED",
+    "save": null,
+    "damage": [
+      {
+        "amount": "1d10",
+        "type": "FIRE"
+      }
+    ],
+    "effect": null,
+    "range": 120,
+    "area": null,
+    "school": "EVOCATION",
+    "classes": ["SORCERER", "WIZARD", "ARTIFICER"],
+    "subClasses": [],
+    "verbal": true,
+    "somatic": true,
+    "material": {
+      "component": "",
+      "cost": {
+        "amount": 50,
+        "currency": "GP"
+      },
+      "consumed": false
+    },
+    "source": {
+      "book": "",
+      "page": 1
+    },
+    "tags": []
+  }
+]

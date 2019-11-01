@@ -1,0 +1,50 @@
+{
+  "name": "",
+  "level": 0,
+  "castingTime": {
+    "amount": 1,
+    "unit": "",
+    "footnote": null
+  },
+  "duration": {
+    "amount": 1,
+    "unit": "",
+    "footnote": null
+  },
+  "ritual": false,
+  "concentration": false,
+  "description": "",
+  "higherLevel": null,
+  "attack": null,
+  "save": null,
+  "damage": [
+    {
+      "amount": "",
+      "type": ""
+    }
+  ],
+  "effect": null,
+  "range": 0,
+  "area": {
+    "size": 1,
+    "shape": ""
+  },
+  "school": "",
+  "classes": [],
+  "subClasses": [],
+  "verbal": true,
+  "somatic": true,
+  "material": {
+    "component": "",
+    "cost": {
+      "amount": 50,
+      "currency": "GP"
+    },
+    "consumed": false
+  },
+  "source": {
+    "book": "",
+    "page": 1
+  },
+  "tags": []
+}
