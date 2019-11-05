@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "name": "Acid Splash",
     "level": 0,
     "castingTime": {
@@ -41,7 +40,7 @@
     "somatic": true,
     "material": null,
     "source": {
-      "book": "BR",
+      "title": "BR",
       "page": 211
     },
     "tags": [
@@ -49,7 +48,6 @@
     ]
   },
   {
-    "id": 2,
     "name": "Blade Ward",
     "level": 0,
     "castingTime": {
@@ -78,7 +76,7 @@
         ]
       }
     ],
-    "effect": "",
+    "effect": null,
     "range": null,
     "area": null,
     "school": "ABJURATION",
@@ -93,7 +91,7 @@
     "somatic": true,
     "material": null,
     "source": {
-      "book": "PHB",
+      "title": "PHB",
       "page": 218
     },
     "tags": [
@@ -102,7 +100,6 @@
     ]
   },
   {
-    "id": 3,
     "name": "Booming Blade",
     "level": 0,
     "castingTime": {
@@ -147,7 +144,7 @@
       "consumed": false
     },
     "source": {
-      "book": "SCAG",
+      "title": "SCAG",
       "page": null
     },
     "tags": [
@@ -157,7 +154,6 @@
     ]
   },
   {
-    "id": 4,
     "name": "Chill Touch",
     "level": 0,
     "castingTime": {
@@ -198,7 +194,7 @@
     "somatic": true,
     "material": null,
     "source": {
-      "book": "BR",
+      "title": "BR",
       "page": 221
     },
     "tags": [
@@ -206,7 +202,6 @@
     ]
   },
   {
-    "id": 5,
     "name": "Control Flames",
     "level": 0,
     "castingTime": {
@@ -243,7 +238,7 @@
     "somatic": true,
     "material": null,
     "source": {
-      "book": "EEPC",
+      "title": "EEPC",
       "page": 152
     },
     "tags": [
@@ -251,7 +246,6 @@
     ]
   },
   {
-    "id": 6,
     "name": "Create Bonfire",
     "level": 0,
     "castingTime": {
@@ -297,7 +291,7 @@
     "somatic": true,
     "material": null,
     "source": {
-      "book": "EEPC",
+      "title": "EEPC",
       "page": 152
     },
     "tags": [
@@ -306,7 +300,6 @@
     ]
   },
   {
-    "id": 7,
     "name": "Dancing Lights",
     "level": 0,
     "castingTime": {
@@ -345,7 +338,7 @@
       "consumed": false
     },
     "source": {
-      "book": "BR",
+      "title": "BR",
       "page": 230
     },
     "tags": [
@@ -353,7 +346,6 @@
     ]
   },
   {
-    "id": 8,
     "name": "Druidcraft",
     "level": 0,
     "castingTime": {
@@ -385,7 +377,7 @@
     "somatic": true,
     "material": null,
     "source": {
-      "book": "BR",
+      "title": "BR",
       "page": 236
     },
     "tags": [
@@ -393,7 +385,6 @@
     ]
   },
   {
-    "id": 9,
     "name": "Eldritch Blast",
     "level": 0,
     "castingTime": {
@@ -432,7 +423,7 @@
     "somatic": true,
     "material": null,
     "source": {
-      "book": "BR",
+      "title": "BR",
       "page": 237
     },
     "tags": [
@@ -440,7 +431,6 @@
     ]
   },
   {
-    "id": 10,
     "name": "Fire Bolt",
     "level": 0,
     "castingTime": {
@@ -481,7 +471,7 @@
     "somatic": true,
     "material": null,
     "source": {
-      "book": "BR",
+      "title": "BR",
       "page": 242
     },
     "tags": [
@@ -489,7 +479,6 @@
     ]
   },
   {
-    "id": 11,
     "name": "Friends",
     "level": 0,
     "castingTime": {
@@ -528,7 +517,7 @@
       "consumed": false
     },
     "source": {
-      "book": "PHB",
+      "title": "PHB",
       "page": 244
     },
     "tags": [
@@ -538,7 +527,6 @@
     ]
   },
   {
-    "id": 12,
     "name": "Frostbite",
     "level": 0,
     "castingTime": {
@@ -581,7 +569,7 @@
     "somatic": true,
     "material": null,
     "source": {
-      "book": "EEPC",
+      "title": "EEPC",
       "page": 156
     },
     "tags": [
@@ -590,7 +578,6 @@
     ]
   },
   {
-    "id": 13,
     "name": "Green-Flame Blade",
     "level": 0,
     "castingTime": {
@@ -635,7 +622,7 @@
       "consumed": false
     },
     "source": {
-      "book": "SCAG",
+      "title": "SCAG",
       "page": null
     },
     "tags": [
@@ -644,7 +631,6 @@
     ]
   },
   {
-    "id": 14,
     "name": "Guidance",
     "level": 0,
     "castingTime": {
@@ -678,7 +664,7 @@
     "somatic": true,
     "material": null,
     "source": {
-      "book": "BR",
+      "title": "BR",
       "page": 248
     },
     "tags": [
@@ -686,7 +672,6 @@
     ]
   },
   {
-    "id": 15,
     "name": "Gust",
     "level": 0,
     "castingTime": {
@@ -720,7 +705,7 @@
     "somatic": true,
     "material": null,
     "source": {
-      "book": "EEPC",
+      "title": "EEPC",
       "page": 157
     },
     "tags": [
@@ -728,7 +713,6 @@
     ]
   },
   {
-    "id": 16,
     "name": "Infestation",
     "level": 0,
     "castingTime": {
@@ -774,7 +758,7 @@
       "consumed": false
     },
     "source": {
-      "book": "XGTE",
+      "title": "XGTE",
       "page": 158
     },
     "tags": [
@@ -784,7 +768,6 @@
     ]
   },
   {
-    "id": 17,
     "name": "Light",
     "level": 0,
     "castingTime": {
@@ -827,7 +810,7 @@
       "consumed": false
     },
     "source": {
-      "book": "BR",
+      "title": "BR",
       "page": 255
     },
     "tags": [
@@ -836,7 +819,6 @@
     ]
   },
   {
-    "id": 18,
     "name": "Lightning Lure",
     "level": 0,
     "castingTime": {
@@ -880,7 +862,7 @@
     "somatic": false,
     "material": null,
     "source": {
-      "book": "SCAG",
+      "title": "SCAG",
       "page": null
     },
     "tags": [
@@ -890,7 +872,6 @@
     ]
   },
   {
-    "id": 19,
     "name": "Mage Hand",
     "level": 0,
     "castingTime": {
@@ -926,7 +907,7 @@
     "somatic": true,
     "material": null,
     "source": {
-      "book": "BR",
+      "title": "BR",
       "page": 256
     },
     "tags": [

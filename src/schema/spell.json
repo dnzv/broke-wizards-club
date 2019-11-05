@@ -20,7 +20,9 @@
   "damage": [
     {
       "amount": "",
-      "type": [""]
+      "type": [
+        ""
+      ]
     }
   ],
   "effect": null,
@@ -36,14 +38,12 @@
   "somatic": true,
   "material": {
     "component": "",
-    "cost": {
-      "amount": 50,
-      "currency": "GP"
-    },
+    "cost": 50,
+    "currency": "GOLD",
     "consumed": false
   },
   "source": {
-    "book": "",
+    "title": "",
     "page": 1
   },
   "tags": []
