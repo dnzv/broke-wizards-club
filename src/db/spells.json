@@ -18,14 +18,10 @@
     "higherLevel": null,
     "attack": null,
     "save": "DEX",
-    "damage": [
-      {
-        "amount": "1d6",
-        "type": [
-          "ACID"
-        ]
-      }
+    "damageTypes": [
+      "ACID"
     ],
+    "damage": true,
     "effect": null,
     "range": 60,
     "area": null,
@@ -66,16 +62,12 @@
     "higherLevel": null,
     "attack": null,
     "save": null,
-    "damage": [
-      {
-        "amount": null,
-        "type": [
-          "BLUDGEONING",
-          "PIERCING",
-          "SLASHING"
-        ]
-      }
+    "damageTypes": [
+      "BLUDGEONING",
+      "PIERCING",
+      "SLASHING"
     ],
+    "damage": false,
     "effect": null,
     "range": null,
     "area": null,
@@ -118,14 +110,10 @@
     "higherLevel": "",
     "attack": "MELEE",
     "save": null,
-    "damage": [
-      {
-        "amount": "1d8",
-        "type": [
-          "THUNDER"
-        ]
-      }
+    "damageTypes": [
+      "THUNDER"
     ],
+    "damage": true,
     "effect": null,
     "range": 5,
     "area": null,
@@ -172,14 +160,10 @@
     "higherLevel": null,
     "attack": "RANGED",
     "save": null,
-    "damage": [
-      {
-        "amount": "1d8",
-        "type": [
-          "NECROTIC"
-        ]
-      }
+    "damageTypes": [
+      "NECROTIC"
     ],
+    "damage": true,
     "effect": null,
     "range": 120,
     "area": null,
@@ -220,7 +204,8 @@
     "higherLevel": null,
     "attack": null,
     "save": null,
-    "damage": null,
+    "damageTypes": null,
+    "damage": false,
     "effect": null,
     "range": 60,
     "area": {
@@ -264,14 +249,10 @@
     "higherLevel": null,
     "attack": null,
     "save": "DEX",
-    "damage": [
-      {
-        "amount": "1d8",
-        "type": [
-          "FIRE"
-        ]
-      }
+    "damageTypes": [
+      "FIRE"
     ],
+    "damage": true,
     "effect": null,
     "range": 60,
     "area": {
@@ -318,7 +299,8 @@
     "higherLevel": null,
     "attack": null,
     "save": null,
-    "damage": null,
+    "damageTypes": null,
+    "damage": false,
     "effect": null,
     "range": 120,
     "area": null,
@@ -364,7 +346,8 @@
     "higherLevel": null,
     "attack": null,
     "save": null,
-    "damage": null,
+    "damageTypes": null,
+    "damage": false,
     "effect": null,
     "range": 30,
     "area": null,
@@ -403,14 +386,10 @@
     "higherLevel": null,
     "attack": "RANGED",
     "save": null,
-    "damage": [
-      {
-        "amount": "1d10",
-        "type": [
-          "FORCE"
-        ]
-      }
+    "damageTypes": [
+      "FORCE"
     ],
+    "damage": true,
     "effect": null,
     "range": 120,
     "area": null,
@@ -449,14 +428,10 @@
     "higherLevel": null,
     "attack": "RANGED",
     "save": null,
-    "damage": [
-      {
-        "amount": "1d10",
-        "type": [
-          "FIRE"
-        ]
-      }
+    "damageTypes": [
+      "FIRE"
     ],
+    "damage": true,
     "effect": null,
     "range": 120,
     "area": null,
@@ -497,7 +472,8 @@
     "higherLevel": null,
     "attack": null,
     "save": null,
-    "damage": null,
+    "damageTypes": null,
+    "damage": false,
     "effect": null,
     "range": null,
     "area": null,
@@ -545,14 +521,10 @@
     "higherLevel": null,
     "attack": null,
     "save": "CON",
-    "damage": [
-      {
-        "amount": "1d6",
-        "type": [
-          "COLD"
-        ]
-      }
+    "damageTypes": [
+      "COLD"
     ],
+    "damage": true,
     "effect": null,
     "range": 60,
     "area": null,
@@ -596,14 +568,10 @@
     "higherLevel": null,
     "attack": "MELEE",
     "save": null,
-    "damage": [
-      {
-        "amount": null,
-        "type": [
-          "FIRE"
-        ]
-      }
+    "damageTypes": [
+      "FIRE"
     ],
+    "damage": true,
     "effect": null,
     "range": 5,
     "area": null,
@@ -649,7 +617,8 @@
     "higherLevel": null,
     "attack": null,
     "save": null,
-    "damage": null,
+    "damageTypes": null,
+    "damage": false,
     "effect": null,
     "range": 0,
     "area": null,
@@ -690,7 +659,8 @@
     "higherLevel": null,
     "attack": null,
     "save": "STR",
-    "damage": null,
+    "damageTypes": null,
+    "damage": false,
     "effect": null,
     "range": 30,
     "area": null,
@@ -731,14 +701,10 @@
     "higherLevel": null,
     "attack": null,
     "save": "CON",
-    "damage": [
-      {
-        "amount": "1d6",
-        "type": [
-          "POISON"
-        ]
-      }
+    "damageTypes": [
+      "POISON"
     ],
+    "damage": true,
     "effect": null,
     "range": 30,
     "area": null,
@@ -786,7 +752,8 @@
     "higherLevel": null,
     "attack": null,
     "save": "DEX",
-    "damage": null,
+    "damageTypes": null,
+    "damage": false,
     "effect": null,
     "range": 0,
     "area": {
@@ -837,14 +804,10 @@
     "higherLevel": null,
     "attack": null,
     "save": "STR",
-    "damage": [
-      {
-        "amount": "1d8",
-        "type": [
-          "LIGHTNING"
-        ]
-      }
+    "damageTypes": [
+      "LIGHTNING"
     ],
+    "damage": true,
     "effect": null,
     "range": 15,
     "area": null,
@@ -890,7 +853,8 @@
     "higherLevel": null,
     "attack": null,
     "save": null,
-    "damage": null,
+    "damageTypes": null,
+    "damage": false,
     "effect": null,
     "range": 30,
     "area": null,

@@ -17,14 +17,10 @@
   "higherLevel": null,
   "attack": null,
   "save": null,
-  "damage": [
-    {
-      "amount": "",
-      "type": [
-        ""
-      ]
-    }
+  "damageTypes": [
+    "TYPE"
   ],
+  "damage": true,
   "effect": null,
   "range": 0,
   "area": {
