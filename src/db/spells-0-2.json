@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Magic Stone",
+    "level": 0,
+    "castingTime": {
+      "amount": 1,
+      "unit": "BONUS_ACTION",
+      "footnote": null
+    },
+    "duration": {
+      "amount": 1,
+      "unit": "MINUTE",
+      "footnote": null
+    },
+    "ritual": false,
+    "concentration": false,
+    "description": "<p>You touch one to three pebbles and imbue them with magic. You or someone else can make a ranged spell attack with one of the pebbles by throwing it or hurling it with a sling. If thrown, it has a range of 60 feet. If someone else attacks with the pebble, that attacker adds your spellcasting ability modifier, not the attacker’s, to the attack roll. On a hit, the target takes bludgeoning damage equal to 1d6 + your spellcasting ability modifier. Hit or miss, the spell then ends on the stone.</p><p>If you cast this spell again, the spell ends early on any pebbles still affected by it.</p>",
+    "higherLevel": null,
+    "attack": "RANGED",
+    "save": null,
+    "damageTypes": [
+      "BLUDGEONING"
+    ],
+    "damage": true,
+    "effect": null,
+    "range": 0,
+    "area": null,
+    "school": "TRANSMUTATION",
+    "classes": ["DRUID", "WARLOCK", "ARTIFICER"],
+    "subClasses": [],
+    "verbal": true,
+    "somatic": true,
+    "material": null,
+    "source": {
+      "title": "EEPC",
+      "page": 160
+    },
+    "tags": ["DAMAGE"]
+  },
+  {
+    "name": "Mending",
+    "level": 0,
+    "castingTime": {
+      "amount": 1,
+      "unit": "MINUTE",
+      "footnote": null
+    },
+    "duration": {
+      "amount": 0,
+      "unit": "INSTANTANEOUS",
+      "footnote": null
+    },
+    "ritual": false,
+    "concentration": false,
+    "description": "<p>This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.</p><p>This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.</p>",
+    "higherLevel": null,
+    "attack": null,
+    "save": null,
+    "damageTypes": null,
+    "damage": false,
+    "effect": null,
+    "range": 0,
+    "area": null,
+    "school": "TRANSMUTATION",
+    "classes": ["BARD", "CLERIC", "DRUID", "SORCERER", "WIZARD", "ARTIFICER"],
+    "subClasses": [],
+    "verbal": true,
+    "somatic": true,
+    "material": {
+      "component": "two lodestones",
+      "cost": null,
+      "consumed": false
+    },
+    "source": {
+      "title": "BR",
+      "page": 259
+    },
+    "tags": ["UTILITY"]
+  }
+]

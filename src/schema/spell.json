@@ -34,8 +34,10 @@
   "somatic": true,
   "material": {
     "component": "",
-    "cost": 50,
-    "currency": "GOLD",
+    "cost": {
+      "amount": 50,
+      "currency": "GOLD"
+    },
     "consumed": false
   },
   "source": {
