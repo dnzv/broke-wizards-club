@@ -3,7 +3,7 @@ import Tag from "./Tag"
 import StatTable from './StatTable'
 
 const SpellCard = props => (
-  <div className="px-6 pt-4 pb-2 shadow border-solid border-t-4 border-purple-600">
+  <div className="px-6 pt-4 pb-2 shadow border-solid border-t-4 border-purple-600 font-normal">
     <p className="text-2xl font-bold mb-6 capitalize">{props.name}</p>
     <StatTable stats={props.stats}/>
     <p className="text-sm text-justify mb-4">{props.description}</p>
@@ -20,7 +20,7 @@ const SpellCard = props => (
   </div>
 )
 
-const TagList = ({ label, tags }) => (
+const TagList = ({ label, tags = [] }) => (
   <div className="flex flex-wrap mb-1">
     <p className="text-xs leading-loose">{label}</p>
     {tags.map(tag => <Tag key={tag} value={tag}/>)}

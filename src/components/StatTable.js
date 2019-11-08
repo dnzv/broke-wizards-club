@@ -1,7 +1,7 @@
 import React from 'react'
 import Abjuration from '../images/abjuration.png'
 
-const StatTable = ({ stats }) => (
+const StatTable = ({ stats = [] }) => (
   <div className="flex justify-between w-full border-solid border-b-2 border-purple-600 mb-4">
     <div className="flex flex-wrap flex-grow">
       {stats.map(stat => <Stat key={stat.label} label={stat.label} value={stat.value}/>)}
