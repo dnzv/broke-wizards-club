@@ -1,3 +1,7 @@
 body {
   background-color: #faf9f7;
 }
+
+.spell-description > p {
+  margin-bottom: 0.85rem;
+}

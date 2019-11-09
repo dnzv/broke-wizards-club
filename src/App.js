@@ -6,53 +6,56 @@ import SpellTable from "./components/SpellTable"
 function App() {
   const spells = [
     {
-      id: 1,
-      name: 'Absorb Elements',
-      description: `The spell captures some of the incoming energy, 
-    lessening its effect on you and storing it for your next melee attack. 
-    You have resistance to the triggering damage type until the start of your next turn. 
-    Also, the first time you hit with a melee attack on your next turn, 
-    the target takes an extra 1d6 damage of the triggering type, and the spell ends.`,
-      higherLevel: `When you cast this spell using a spell slot of 2nd level or higher, 
-    the extra damage increases by 1d6 for each slot level above 1st.`,
-      footnote: '* - which you take when you take acid, cold, fire, lightning, or thunder damage',
-      level: 'Cantrip',
-      concentration: false,
-      castingTime: '1 Reaction *',
-      range: 150,
-      area: 30,
-      verbal: false,
-      somatic: true,
-      material: null,
-      duration: '1 Round',
-      school: 'Abjuration',
-      attack: null,
-      save: null,
-      damage: 'Acid (...)',
-      effect: null,
-      stats: [
-        { label: 'level', value: '1st' },
-        { label: 'casting time', value: '1 reaction *' },
-        { label: 'range/area', value: 'self' },
-        { label: 'components', value: 's' },
-        { label: 'duration', value: '1 round' },
-        { label: 'school', value: 'abjuration' },
-        { label: 'attack/save', value: 'none' },
-        { label: 'damage/effect', value: 'acid (...)' },
+      "id": "5dc29542b59f074f98e46de6",
+      "name": "Acid Splash",
+      "level": 0,
+      "castingTime": {
+        "amount": 1,
+        "unit": "Action",
+        "footnote": null
+      },
+      "duration": {
+        "amount": 0,
+        "unit": "Instantaneous",
+        "footnote": null
+      },
+      "ritual": false,
+      "concentration": false,
+      "description": "<p>You hurl a bubble of acid. Choose one or two creatures you can see within range. If you choose two, they must be within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.</p><p>This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>",
+      "higherLevel": null,
+      "attack": null,
+      "save": "DEX",
+      "damageTypes": [
+        "Acid"
       ],
-      classes: [ 'Druid', 'Ranger', 'Sorcerer', 'Wizard' ],
-      tags: [ 'Damage', 'Warding' ],
-      reference: 'Elemental Evil Player\'s Companion, pg. 150'
+      "damage": true,
+      "effect": null,
+      "range": 60,
+      "area": null,
+      "school": "Conjuration",
+      "classes": [
+        "SORCERER",
+        "WIZARD",
+        "ARTIFICER"
+      ],
+      "subClasses": [],
+      "verbal": true,
+      "somatic": true,
+      "material": null,
+      "source": {
+        "title": "Basic Rules",
+        "page": 211
+      },
+      "tags": [
+        "DAMAGE"
+      ]
     }
   ]
   return (
     <div className="px-2 py-8 md:px-4 lg:px-8 xl:px-64 text-gray-900">
       <SpellTable spells={spells}/>
       <br/>
-      <SpellCard name={spells[0].name} description={spells[0].description}
-                 higherLevel={spells[0].higherLevel} footnote={spells[0].footnote}
-                 stats={spells[0].stats} classes={spells[0].classes}
-                 tags={spells[0].tags} reference={spells[0].reference}/>
+      <SpellCard spell={spells[0]}/>
     </div>
   )
 }

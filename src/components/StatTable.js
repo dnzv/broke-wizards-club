@@ -13,8 +13,8 @@ const StatTable = ({ stats = [], image = false }) => (
 
 const Stat = ({ label, value }) => (
   <div className="w-1/2 sm:w-1/4 mb-4">
-    <p className="text-sm font-bold uppercase">{label}</p>
-    <p className="text-sm capitalize">{value}</p>
+    <p className="text-sm font-bold">{label}</p>
+    <p className="text-sm">{value}</p>
   </div>
 )
 
