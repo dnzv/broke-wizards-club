@@ -1,12 +1,11 @@
 import React from 'react'
-import Tag from "./Tag"
-import StatTable from './StatTable'
-import Card from "./Card"
+import Tag from "../Tag"
+import StatTable from '../StatTable'
+import Card from "../Card"
 
-const SpellCard = props => (
-  <Card border>
-    <p className="text-2xl font-bold mb-6 capitalize">{props.name}</p>
-    <StatTable stats={props.stats} image/>
+const SpellRowDetail = props => (
+  <Card>
+    <StatTable stats={props.stats}/>
     <p className="text-sm text-justify mb-4">{props.description}</p>
     <p className="text-sm text-justify mb-4">
       <span className="font-bold">At Higher Levels. </span>{props.higherLevel}
@@ -16,8 +15,13 @@ const SpellCard = props => (
       <TagList label="Spell Tags:" tags={props.tags}/>
       <TagList label="Available For:" tags={props.classes}/>
     </div>
-    <div className="flex flex-row-reverse text-xs italic leading-loose
-        border-solid border-t-2 border-purple-600 py-1">{props.reference}</div>
+    <div className="flex flex-col md:flex-row-reverse text-xs justify-between italic leading-loose py-1 items-center">
+      <span>{props.reference}</span>
+      <button className="font-bold tracking-tighter bg-purple-600 text-gray-100
+      rounded-sm px-4 py-1 focus:outline-none uppercase mt-2 md:mt-0 w-full md:w-auto">
+        View Details Page
+      </button>
+    </div>
   </Card>
 )
 
@@ -28,4 +32,4 @@ const TagList = ({ label, tags = [] }) => (
   </div>
 )
 
-export default SpellCard
+export default SpellRowDetail

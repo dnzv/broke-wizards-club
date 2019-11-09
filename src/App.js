@@ -6,6 +6,7 @@ import SpellTable from "./components/SpellTable"
 function App() {
   const spells = [
     {
+      id: 1,
       name: 'Absorb Elements',
       description: `The spell captures some of the incoming energy, 
     lessening its effect on you and storing it for your next melee attack. 
@@ -15,7 +16,7 @@ function App() {
       higherLevel: `When you cast this spell using a spell slot of 2nd level or higher, 
     the extra damage increases by 1d6 for each slot level above 1st.`,
       footnote: '* - which you take when you take acid, cold, fire, lightning, or thunder damage',
-      level: '1st',
+      level: 'Cantrip',
       concentration: false,
       castingTime: '1 Reaction *',
       range: 150,
@@ -45,7 +46,7 @@ function App() {
     }
   ]
   return (
-    <div className="p-8 text-gray-900">
+    <div className="px-2 py-8 md:px-4 lg:px-8 xl:px-64 text-gray-900">
       <SpellTable spells={spells}/>
       <br/>
       <SpellCard name={spells[0].name} description={spells[0].description}
