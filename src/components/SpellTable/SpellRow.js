@@ -26,7 +26,7 @@ class SpellRow extends React.Component {
             <div className="text-base font-bold truncate hover:text-purple-500">
               <a href={`/spells/${spell.id}`}>{spell.name}</a>
             </div>
-            <div className="text-xs text-gray-600">{spell.school} • {mapComponents(spell, true)}</div>
+            <div className="text-xs text-gray-600">{spell.school} • {mapComponents(spell)}</div>
           </td>
           <td className="px-4 py-2 hidden md:table-cell">{mapTime(spell.castingTime)}</td>
           <td className="px-4 py-2 hidden md:table-cell">{mapTime(spell.duration)}</td>

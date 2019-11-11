@@ -11,12 +11,12 @@ function App() {
       "level": 0,
       "castingTime": {
         "amount": 1,
-        "unit": "Action",
+        "unit": "ACTION",
         "footnote": null
       },
       "duration": {
         "amount": 0,
-        "unit": "Instantaneous",
+        "unit": "INSTANTANEOUS",
         "footnote": null
       },
       "ritual": false,
@@ -26,13 +26,13 @@ function App() {
       "attack": null,
       "save": "DEX",
       "damageTypes": [
-        "Acid"
+        "ACID"
       ],
       "damage": true,
       "effect": null,
       "range": 60,
       "area": null,
-      "school": "Conjuration",
+      "school": "CONJURATION",
       "classes": [
         "SORCERER",
         "WIZARD",
@@ -43,7 +43,7 @@ function App() {
       "somatic": true,
       "material": null,
       "source": {
-        "title": "Basic Rules",
+        "title": "BR",
         "page": 211
       },
       "tags": [
